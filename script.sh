@@ -90,6 +90,8 @@ az vm create \
   --nsg NSG-VM-03 \
   --subnet BACKEND-SUBNET
 
+
+
 az vm extension set \
   --publisher Microsoft.Azure.Extensions \
   --version 2.0 \
